@@ -1,0 +1,28 @@
+.price .items {
+  padding: 20px;
+  text-align: center;
+}
+.price h1 {
+  font-size: 50px;
+  margin: 20px 0;
+  color: #4f9cbd;
+}
+.price h1 span {
+  font-size: 20px;
+  margin-right: 5px;
+  color: #000;
+}
+.price p {
+  color: grey;
+  margin: 40px 0;
+}
+.gettart:hover{
+  background-color: rgb(135, 92, 175);
+}
+.gettart{
+  background-color: rgb(152, 212, 191);
+}
+.shadowprice {
+  box-shadow: 2px 2px 11px 10px rgb(0 0 0 / 6%);
+  background-color: #fff;
+}

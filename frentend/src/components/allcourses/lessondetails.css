@@ -1,0 +1,11 @@
+.bordersub {
+  background-color: rgb(236, 104, 104);
+  opacity: 80%;
+  border-radius: 55px;
+  cursor: pointer;
+}
+.bordersave {
+  background-color: rgb(92, 192, 231);
+  opacity: 80%;
+  border-radius: 55px;
+}

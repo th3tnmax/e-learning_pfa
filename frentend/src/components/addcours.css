@@ -1,0 +1,59 @@
+
+.info-img {
+    width: 15%;
+    height: auto;
+}
+
+
+.contacts .rightuser {
+    
+    margin: auto;
+  }
+.report-container{
+    min-width: 1240px;
+}
+.border{
+    background-color: rgb(54, 190, 161);
+    opacity: 80%;
+    border-radius: 55px;
+    
+}
+
+.allbtn {
+    background-color: #1eb2a6;
+    color: #fff;
+}
+.allbtn {
+    padding: 15px 40px;
+    background-color: #fff;
+    color: #1eb2a6;
+    border: none;
+    margin: 10px 10px 0 0;
+    box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
+    transition: 0.5s;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+.freepaid{
+    display: flex;
+}
+.beforefooter{
+    margin: auto;
+}
+[type=radio] {
+    border-radius: 100%;
+    padding: 0;
+}
+.contacts textarea, input {
+    width: 100%; 
+    padding: 15px;
+    margin-bottom: 15px;
+    outline: none;
+     border: 1px solid grey;
+}

@@ -1,0 +1,155 @@
+/* .header {
+    background: #ECF1F4;
+
+
+
+}
+
+.site-logo {
+    width: 80%;
+    margin-top: 0;
+    height: auto;
+}
+
+.navigateur {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.navigateur ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    
+}
+
+.navigateur ul li {
+    list-style-type: none;
+    color: #767672;
+}
+
+#join {
+    color: white;
+}
+
+#btn {
+    background: linear-gradient(135deg, #23C5E5 0%, #1C409B 100%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 9%;
+}
+#btn a{
+    color:white;
+}
+
+.list-item:visited {
+    color:black;
+    
+
+}
+
+#btn :visited {
+    color: white;
+    text-decoration: none;
+}
+#home:visited{
+    color: #1C409B;
+
+}
+.navigateur ul li a{
+     color: #767672;
+     text-decoration: none;
+
+}
+.list-item:hover{
+    text-decoration: underline solid #1C409B 2px;
+} */
+
+/*--------head------------*/
+
+  /*--------head------------*/
+  /*--------header------------*/
+
+  .expert{
+    width: 65px;
+    height: 65px;
+    padding: 0;
+    margin-right: 20px;
+  }
+  header {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 60px;
+    
+  }
+  header .nav {
+    display: flex !important;
+  }
+  header li {
+    margin-right: 40px;
+  }
+  header ul {
+    padding: 12px 20px;
+  }
+  header ul li a {
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s;
+  }
+  header ul li a:hover {
+    color: #1eb2a6;
+  }
+  .start {
+    background-color: #1eb2a6;
+    padding: 30px 60px;
+    color: #fff;
+    clip-path: polygon(22% 0%, 100% 0, 100% 100%, 0% 100%);
+  }
+  .toggle {
+    display: none;
+  }
+  .connection{
+    display: flex;
+    margin-left: 130px;
+
+  }
+  .flexSB {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /*--------header------------*/
+  @media screen and (max-width: 768px) {
+    .start {
+      clip-path: none;
+      
+    }
+    header {
+      margin: 0 ;
+      background-color: #1eb2a6;
+      /* position: relative; */
+    }
+    header ul.flexSB {
+      display: none;
+    }
+    header ul li {
+      margin-bottom: 20px;
+    }
+    .toggle {
+      display: block;
+      background: none;
+      color: #fff;
+      font-size: 30px;
+      position: absolute;
+      right: 0;
+      top: -20px;
+    }
+    .mobile-nav {
+      position: absolute;
+      top: 7vh;
+      left: 0;
+      width: 100%;
+      background-color: #1eb2a6;
+    }
+  }
+  
